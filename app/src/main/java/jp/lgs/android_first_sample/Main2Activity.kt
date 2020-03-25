@@ -16,23 +16,20 @@ class Main2Activity : AppCompatActivity() {
 
 
     fun onClickReturnForm1(view: View) {
-        //--　以下どちらでも機能する。ステータスとすればどうなのか？
-
-        val intent = Intent(applicationContext,MainActivity::class.java)
-        startActivity(intent)
+        //-- 以前のステータスに戻るばかりなり
+        //val intent = Intent(applicationContext,MainActivity::class.java)
+        //startActivity(intent)
 
         //-- ここで以下をやると暴走する
         //Id_form1Txtt.setText(R.string.helloAgain)
 
-        //finish()
+        finish()
     }
 
     fun onClickGotoFrm3(view: View){
         val intent = Intent(applicationContext,Main3Activity::class.java)
         startActivity(intent)
     }
-
-
 
     override fun onStart() {
         super.onStart()

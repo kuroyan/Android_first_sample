@@ -13,8 +13,10 @@ class Main3Activity : AppCompatActivity() {
     }
 
     fun onClickBackFrm2(view: View){
-        val intent = Intent(applicationContext,Main2Activity::class.java)
-        startActivity(intent)
+        //val intent = Intent(applicationContext,Main2Activity::class.java)
+        //startActivity(intent)
+
+        finish()
     }
 
 

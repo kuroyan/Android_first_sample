@@ -5,4 +5,8 @@
     <string name="hello">こんにちは</string>
     <string name="helloAgain">またお会いしましたね</string>
     <string name="returnMSg">戻る</string>
+    <string name="form1">FORM1</string>
+    <string name="form2">FORM2</string>
+    <string name="form3">FORM3</string>
+    <string name="retForm2">Form2に戻る</string>
 </resources>
