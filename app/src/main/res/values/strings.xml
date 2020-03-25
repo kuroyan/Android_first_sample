@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android_first_sample</string>
+    <string name="toForm2BtnLabel">Form2表示</string>
+    <string name="toForm3BtnLabel">Form3表示</string>
+    <string name="hello">こんにちは</string>
+    <string name="helloAgain">またお会いしましたね</string>
+    <string name="returnMSg">戻る</string>
 </resources>
