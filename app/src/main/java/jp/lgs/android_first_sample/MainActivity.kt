@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         //-- toastは以下でもstartActivityの後でも表示タイミングは関係ないようだ
         //toastMake("画面変更中！！",0,-100)
         startActivity(intent)
-        Id_form1Txtt.setText(R.string.helloAgain)
     }
 
     override fun onStart() {
@@ -35,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        //Id_form1Txtt.setText(R.string.helloAgain)
     }
 
     override fun onPause() {

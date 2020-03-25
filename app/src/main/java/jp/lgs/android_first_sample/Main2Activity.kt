@@ -12,18 +12,26 @@ class Main2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-
     }
 
 
     fun onClickReturnForm1(view: View) {
         //--　以下どちらでも機能する。ステータスとすればどうなのか？
 
-        //val intent = Intent(applicationContext,MainActivity::class.java)
-        //startActivity(intent)
+        val intent = Intent(applicationContext,MainActivity::class.java)
+        startActivity(intent)
 
-        finish()
+        //-- ここで以下をやると暴走する
+        //Id_form1Txtt.setText(R.string.helloAgain)
+
+        //finish()
     }
+
+    fun onClickGotoFrm3(view: View){
+        val intent = Intent(applicationContext,Main3Activity::class.java)
+        startActivity(intent)
+    }
+
 
 
     override fun onStart() {
